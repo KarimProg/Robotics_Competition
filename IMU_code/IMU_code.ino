@@ -1,5 +1,5 @@
 #include "Wire.h"	//Include the wire library for I2C communication.
-#include <MPU6050_light.h> ////Include the `MPU6050_light` library for controlling the MPU6050 sensor.
+#include <MPU6050_light.h>  //Include the `MPU6050_light` library for controlling the MPU6050 sensor.
 
 MPU6050 mpu(Wire);	// initialize MPU6050 with the Wire library
 unsigned long timer = 0;	// initialize a timer variable to be used for the loop function
